@@ -1,3 +1,7 @@
+@font-face {
+    font-family:'digital-7';
+    src: url(/home/liakos/Downloads/digital-7.regular.ttf);
+}
 .main{
     display: flex;
     justify-content: center;
@@ -17,7 +21,22 @@
     border-radius: 3%;
     background-color: azure;
 }
-
+.line-top{
+    height:60px;
+    width: 330px;
+    text-align: right;
+    font-size: 60px;
+    font-family:'digital-7';
+    
+    
+}
+.line-bottom{
+    height:60px;
+    width: 330px;
+    text-align: right;
+    font-size: 60px;
+    font-family:'digital-7';
+}
   
 #buttons-grid {
     height: 480px;
